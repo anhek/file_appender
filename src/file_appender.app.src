@@ -1,0 +1,9 @@
+{application, file_appender, [
+    {description, "File appender application"},
+    {vsn, "0.1.0"},
+    {mod, {file_appender_app, []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.
